@@ -4,6 +4,9 @@ import subprocess
 import datetime
 import time
 
+# Changing dir to digi
+os.chdir("/home/digi")
+
 # Function to check and install missing libraries
 def ensure_library_installed(library):
     try:
